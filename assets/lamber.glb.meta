@@ -1,0 +1,279 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "590c92db-8f22-43af-823f-4f7759dc1d00",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-2.cconb"
+  ],
+  "subMetas": {
+    "141c1": {
+      "importer": "gltf-mesh",
+      "uuid": "590c92db-8f22-43af-823f-4f7759dc1d00@141c1",
+      "displayName": "",
+      "id": "141c1",
+      "name": "Lumber_Mesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 792
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "805ec": {
+      "importer": "gltf-animation",
+      "uuid": "590c92db-8f22-43af-823f-4f7759dc1d00@805ec",
+      "displayName": "",
+      "id": "805ec",
+      "name": "Lumber_Skeleton|Lumber_Chop.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "e2bbe": {
+      "importer": "gltf-animation",
+      "uuid": "590c92db-8f22-43af-823f-4f7759dc1d00@e2bbe",
+      "displayName": "",
+      "id": "e2bbe",
+      "name": "Lumber_Skeleton|Lumber_Idle.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.9666666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "dacee": {
+      "importer": "gltf-animation",
+      "uuid": "590c92db-8f22-43af-823f-4f7759dc1d00@dacee",
+      "displayName": "",
+      "id": "dacee",
+      "name": "Lumber_Skeleton|Lumber_Walk.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "aa6cb": {
+      "importer": "gltf-skeleton",
+      "uuid": "590c92db-8f22-43af-823f-4f7759dc1d00@aa6cb",
+      "displayName": "",
+      "id": "aa6cb",
+      "name": "Lumber_Skeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 22
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b192f": {
+      "importer": "gltf-embeded-image",
+      "uuid": "590c92db-8f22-43af-823f-4f7759dc1d00@b192f",
+      "displayName": "",
+      "id": "b192f",
+      "name": "lumber_common.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "590c92db-8f22-43af-823f-4f7759dc1d00@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "590c92db-8f22-43af-823f-4f7759dc1d00@b192f"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2c182": {
+      "importer": "gltf-material",
+      "uuid": "590c92db-8f22-43af-823f-4f7759dc1d00@2c182",
+      "displayName": "",
+      "id": "2c182",
+      "name": "male_chopper.001.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9a7c": {
+      "importer": "gltf-scene",
+      "uuid": "590c92db-8f22-43af-823f-4f7759dc1d00@c9a7c",
+      "displayName": "",
+      "id": "c9a7c",
+      "name": "lamber.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "lumber_common",
+        "uri": "590c92db-8f22-43af-823f-4f7759dc1d00@b192f"
+      }
+    ],
+    "animationImportSettings": [
+      {
+        "name": "Lumber_Skeleton|Lumber_Chop",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Lumber_Skeleton|Lumber_Chop",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "805ec"
+          }
+        ]
+      },
+      {
+        "name": "Lumber_Skeleton|Lumber_Idle",
+        "duration": 1.9666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Lumber_Skeleton|Lumber_Idle",
+            "from": 0,
+            "to": 1.9666666984558105,
+            "wrapMode": 2,
+            "previousId": "e2bbe"
+          }
+        ]
+      },
+      {
+        "name": "Lumber_Skeleton|Lumber_Walk",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Lumber_Skeleton|Lumber_Walk",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2,
+            "previousId": "dacee"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "590c92db-8f22-43af-823f-4f7759dc1d00@141c1"
+      ],
+      "skeletons": [
+        "590c92db-8f22-43af-823f-4f7759dc1d00@aa6cb"
+      ],
+      "textures": [
+        "590c92db-8f22-43af-823f-4f7759dc1d00@e39f7"
+      ],
+      "materials": [
+        "590c92db-8f22-43af-823f-4f7759dc1d00@2c182"
+      ],
+      "scenes": [
+        "590c92db-8f22-43af-823f-4f7759dc1d00@c9a7c"
+      ]
+    }
+  }
+}

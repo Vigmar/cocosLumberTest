@@ -1,0 +1,262 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-2.cconb"
+  ],
+  "subMetas": {
+    "62340": {
+      "importer": "gltf-scene",
+      "uuid": "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@62340",
+      "displayName": "",
+      "id": "62340",
+      "name": "lumber-idle-walk-chop.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "141c1": {
+      "importer": "gltf-mesh",
+      "uuid": "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@141c1",
+      "displayName": "",
+      "id": "141c1",
+      "name": "Lumber_Mesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 792
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "356ea": {
+      "importer": "gltf-animation",
+      "uuid": "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@356ea",
+      "displayName": "",
+      "id": "356ea",
+      "name": "Lumber_Chop.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.9666666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f181d": {
+      "importer": "gltf-animation",
+      "uuid": "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@f181d",
+      "displayName": "",
+      "id": "f181d",
+      "name": "Lumber_Idle.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.9333332777023315
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "8b7ef": {
+      "importer": "gltf-animation",
+      "uuid": "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@8b7ef",
+      "displayName": "",
+      "id": "8b7ef",
+      "name": "Lumber_Walk.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9666666388511658
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 17
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/lumber_common.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2c182": {
+      "importer": "gltf-material",
+      "uuid": "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@2c182",
+      "displayName": "",
+      "id": "2c182",
+      "name": "male_chopper.001.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/lumber_common.jpg"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Lumber_Chop",
+        "duration": 1.9666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Lumber_Chop",
+            "from": 0,
+            "to": 1.9666666984558105,
+            "wrapMode": 2,
+            "previousId": "356ea"
+          }
+        ]
+      },
+      {
+        "name": "Lumber_Idle",
+        "duration": 1.9333332777023315,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Lumber_Idle",
+            "from": 0,
+            "to": 1.9333332777023315,
+            "wrapMode": 2,
+            "previousId": "f181d"
+          }
+        ]
+      },
+      {
+        "name": "Lumber_Walk",
+        "duration": 0.9666666388511658,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Lumber_Walk",
+            "from": 0,
+            "to": 0.9666666388511658,
+            "wrapMode": 2,
+            "previousId": "8b7ef"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@141c1"
+      ],
+      "skeletons": [
+        "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@438fe"
+      ],
+      "textures": [
+        "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@7d6ab"
+      ],
+      "materials": [
+        "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@2c182"
+      ],
+      "scenes": [
+        "1a41fc2a-5b83-4c1b-8d4b-880cf7e72a6f@62340"
+      ]
+    }
+  }
+}

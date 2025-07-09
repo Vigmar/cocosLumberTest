@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8fe13fd3-bb15-4aac-a5ad-257d601ba103",
+  "files": [],
+  "subMetas": {
+    "841c1": {
+      "importer": "gltf-mesh",
+      "uuid": "8fe13fd3-bb15-4aac-a5ad-257d601ba103@841c1",
+      "displayName": "",
+      "id": "841c1",
+      "name": "fence.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 34
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a953b": {
+      "importer": "gltf-material",
+      "uuid": "8fe13fd3-bb15-4aac-a5ad-257d601ba103@a953b",
+      "displayName": "",
+      "id": "a953b",
+      "name": "fence.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4379c": {
+      "importer": "gltf-scene",
+      "uuid": "8fe13fd3-bb15-4aac-a5ad-257d601ba103@4379c",
+      "displayName": "",
+      "id": "4379c",
+      "name": "fence.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "8fe13fd3-bb15-4aac-a5ad-257d601ba103@841c1"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "8fe13fd3-bb15-4aac-a5ad-257d601ba103@a953b"
+      ],
+      "scenes": [
+        "8fe13fd3-bb15-4aac-a5ad-257d601ba103@4379c"
+      ]
+    }
+  }
+}

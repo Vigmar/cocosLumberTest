@@ -1,0 +1,99 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1e0b91ae-4759-40d9-a8e0-479a5c78aa6a",
+  "files": [],
+  "subMetas": {
+    "94121": {
+      "importer": "gltf-scene",
+      "uuid": "1e0b91ae-4759-40d9-a8e0-479a5c78aa6a@94121",
+      "displayName": "",
+      "id": "94121",
+      "name": "table.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49ac4": {
+      "importer": "gltf-mesh",
+      "uuid": "1e0b91ae-4759-40d9-a8e0-479a5c78aa6a@49ac4",
+      "displayName": "",
+      "id": "49ac4",
+      "name": "table.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 120
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2bc56": {
+      "importer": "gltf-material",
+      "uuid": "1e0b91ae-4759-40d9-a8e0-479a5c78aa6a@2bc56",
+      "displayName": "",
+      "id": "2bc56",
+      "name": "table.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "1e0b91ae-4759-40d9-a8e0-479a5c78aa6a@49ac4"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "1e0b91ae-4759-40d9-a8e0-479a5c78aa6a@2bc56"
+      ],
+      "scenes": [
+        "1e0b91ae-4759-40d9-a8e0-479a5c78aa6a@94121"
+      ]
+    },
+    "meshOptimize": {
+      "enable": false
+    }
+  }
+}
