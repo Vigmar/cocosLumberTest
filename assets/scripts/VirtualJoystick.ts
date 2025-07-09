@@ -91,11 +91,11 @@ export class VirtualJoystick extends Component {
     const installSize = this.installNode.getComponent(UITransform).contentSize;
     const cashSize = this.cashNode.getComponent(UITransform).contentSize;
 
-    const padding = 20;
+    const padding = 10;
 
     const posX1 = canvasSize.width / 2 - logoSize.width / 2 - padding;
     const posX2 = canvasSize.width / 2 - installSize.width / 2 - padding;
-    const posX3 = -canvasSize.width / 2 + cashSize.width*0.75 + padding;
+    const posX3 = -canvasSize.width / 2 + cashSize.width/2 + padding;
     const posY1 = canvasSize.height / 2 - logoSize.height / 2 - padding;
     const posY2 = canvasSize.height / 2 - logoSize.height / 2 -installSize.height/2 -3*padding;
 
