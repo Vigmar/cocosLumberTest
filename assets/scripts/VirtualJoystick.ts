@@ -44,6 +44,7 @@ export class VirtualJoystick extends Component {
   private _tutorialTimer: number = 0;
   private _tutorialShowDelay: number = 5;
   private _installUrl:string = "https://play.google.com/store/apps/details?id=com.lumber.inc";
+  private _joystickScale: number = 1;
 
   get direction(): Vec2 {
     return this._direction;
@@ -74,7 +75,7 @@ export class VirtualJoystick extends Component {
     if (!this._isActive) this._tutorialTimer += deltaTime;
 
     if (this._tutorialTimer >= this._tutorialShowDelay) {
-      this.node.setScale(1, 1, 1);
+      this.node.setScale(this._joystickScale, this._joystickScale, this._joystickScale);
       this.hintNode.active = true;
     }
   }
@@ -85,19 +86,33 @@ export class VirtualJoystick extends Component {
     const size = view.getVisibleSize();
 
     this.node.setPosition(0, -canvas.contentSize.height * 0.2);
+	
+	if (canvas.contentSize.width>canvas.contentSize.height)
+		this._joystickScale = 0.5;
+		
+	
+	this.node.setScale(this._joystickScale,this._joystickScale,this._joystickScale);
+	this.logoNode.setScale(this._joystickScale,this._joystickScale,this._joystickScale);
+	this.installNode.setScale(this._joystickScale,this._joystickScale,this._joystickScale);
+	this.cashNode.setScale(this._joystickScale,this._joystickScale,this._joystickScale);
 
     const canvasSize = canvas.contentSize;
+	
+		
+	
     const logoSize = this.logoNode.getComponent(UITransform).contentSize;
     const installSize = this.installNode.getComponent(UITransform).contentSize;
     const cashSize = this.cashNode.getComponent(UITransform).contentSize;
+	
+	
 
     const padding = 10;
 
-    const posX1 = canvasSize.width / 2 - logoSize.width / 2 - padding;
-    const posX2 = canvasSize.width / 2 - installSize.width / 2 - padding;
-    const posX3 = -canvasSize.width / 2 + cashSize.width/2 + padding;
-    const posY1 = canvasSize.height / 2 - logoSize.height / 2 - padding;
-    const posY2 = canvasSize.height / 2 - logoSize.height / 2 -installSize.height/2 -3*padding;
+    const posX1 = canvasSize.width / 2 - this._joystickScale*logoSize.width / 2 - padding;
+    const posX2 = canvasSize.width / 2 - this._joystickScale* installSize.width / 2 - padding;
+    const posX3 = -canvasSize.width / 2 + this._joystickScale*cashSize.width/2 + padding;
+    const posY1 = canvasSize.height / 2 - this._joystickScale* logoSize.height / 2 - padding;
+    const posY2 = canvasSize.height / 2 - this._joystickScale*logoSize.height / 2 -this._joystickScale*installSize.height/2 -3*padding;
 
     this.logoNode.setPosition(-posX1, posY1); 
     this.installNode.setPosition(-posX2, posY2); 
@@ -127,7 +142,7 @@ export class VirtualJoystick extends Component {
     this.hintNode.active = false;
     this._tutorialTimer = 0;
 
-    this.node.setScale(1, 1, 1);
+    this.node.setScale(this._joystickScale, this._joystickScale, this._joystickScale);
 
     this._isActive = true;
     this._touchPos = touchPos.clone();
